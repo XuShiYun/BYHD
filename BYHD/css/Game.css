@@ -1,0 +1,421 @@
+/*---------------------------导航-----------------------*/
+	.container{
+		width: 1000px;
+	}
+	.navbar-default{
+		background: #191d3a;
+		border-radius: 0; 
+		color: #818496;
+		height: 58px; 
+	}
+	.navbar>.container .navbar-brand{
+		padding: 10px 15px;
+		margin-left: 0;
+	}
+	.navbar-default .navbar-nav>.active>a{
+		background: none;
+	}
+	.nav li{
+		width: 87px;
+		line-height: 58px; 
+		border-right: 1px solid #252947; 
+	}
+	.navbar-default .navbar-nav>li{
+			width: 85px;
+			border-right: 1px solid #252947;
+			
+		}
+		@media (min-width: 768px){
+			.navbar-toggle{
+				display: block;
+				border:none;
+			}
+		}
+		.sr-only{
+				width: 28px;
+				height: 4px;
+				background-color:#CACCDF; 
+			}
+		.navbar-default .navbar-toggle span{
+			width: 28px;
+			height: 4px;
+		}
+		.navbar-default .navbar-toggle .icon-bar{
+			background-color:#CACCDF;
+		}
+		.navbar-default .navbar-toggle:hover{
+			background: none;
+		}
+
+		.navbar-toggle{
+			display: none; 
+		}
+		@media only screen and (max-width:1024px){
+			.navbar-toggle{
+				display: block;
+
+			}
+		}
+		.navbar-default .navbar-nav>.active>a{
+			background: #252947;
+		}
+		.navbar-default .navbar-nav>.active>a:hover{
+			background: #252947;
+		}
+		.navbar-default .navbar-nav>li a{
+			padding: 0;
+			display: block;
+			width: 85px;
+			line-height: 56px;
+			text-align: center;
+		}
+		.navbar-default .navbar-nav .jr .dropup{
+			margin-left: 10px;
+		}
+		.navbar-default .navbar-nav .jr .dropup .btn{
+			width: 100px;
+			border: 1px solid #3aca7a;
+			background-color: #38b774;
+		}
+		.navbar-default .navbar-nav .jr .dropup .btn:hover{
+			width: 100px;
+			border: 1px solid #3aca7a;
+			background-color: #2ba364;
+		}
+		.navbar-default .navbar-right li{
+			border: none;
+			margin-right: -54px;
+			font-size: 14px;
+
+		}
+		.navbar-default .navbar-nav .zw a{
+			color: #38b774;
+		}
+		.navbar-default .navbar-nav .zw a:hover{
+			color: #38b774;
+		}
+		.navbar-default .navbar-nav .zm a:hover{
+			color: #38b774;
+		}
+		.navbar{
+			margin-bottom: 0;
+			border: none;
+		}
+/*--------------------------banner--------------------------*/
+		.container-fluid{
+			background: url(../img/gamebanner.jpg)no-repeat;
+			height: 254px;
+			padding: 0;
+		}
+		@media only screen and (max-width: 1024px){
+			.container-fluid{
+				display: none;
+			}
+		}
+/*<--------------------------title-----------------------------> */
+		.title{
+			border-bottom: 1px solid #c7d6e5;
+		}
+		.title-left h2{
+			height: 29px;
+			line-height: 29px;
+			background: url(../img/location.png)no-repeat 0 -94px;
+			margin-right: 10px;
+		}
+		.title-left p{
+			margin: 4px 33px 10px;
+			color: #444866;
+			font-size: 21px;
+			font-weight: bold;
+		}
+		.title-right{
+			line-height: 29px;
+			text-align: right;
+			font-size: 12px;
+		}
+		.list-group .glyphicon{
+			top: 3px;
+			font-size: 10px;
+			right: -35px;
+		}
+		.title-right .glyphicon-triangle-right{
+			color: #AABACB;
+		}
+		.title-right span{
+			padding: 29px 0;
+		}
+		@media only screen and (max-width: 1024px){
+			.title{
+				display: none;
+			}
+		}
+/*<----------------------tab切换---------------------------- -->*/
+		.tab-left{
+			margin-top: 40px;
+			margin-right: 0px;
+			padding-right: 0;
+    		padding-left: 0;
+		}
+		.tab-left .list-group .list-group-item{
+			border: 1px solid #cad6e1;
+			border-left: none;
+			border-right: none;
+			line-height: 58px;
+			padding-left: 60px;
+			width: 195px;
+			cursor: pointer;
+		}
+		.list-group .btn{
+			border-radius: 0;
+			position: relative;
+			outline: none;
+		}
+		.list-group .btn:hover{
+			background-color:#fff;
+		}
+		.list-group .show{
+			color:#33b972;
+		}
+		.list-group .i1:hover{
+			color: #33b972; 
+		}
+		.list-group .i2:hover{
+			color: #33b972; 
+		}
+		.list-group .i3:hover{
+			color: #33b972; 
+		}
+		.list-group .i4:hover{
+			color: #33b972; 
+		}
+		.list-group .i5:hover{
+			color: #33b972; 
+		}
+		.list-group .i1 i{
+			width: 34px;
+			height: 41px;
+			display: inline-block;
+			position: absolute;
+			left: 0;
+			top: 23px;
+			background: url(../img/pad.png)no-repeat -125px 0;
+		}
+		.list-group .i2 i{
+			width: 34px;
+			height: 41px;
+			display: inline-block;
+			position: absolute;
+			left: 0;
+			top: 23px;
+			background: url(../img/pad.png)no-repeat -4px -97px;
+		}
+		.list-group .i2:hover i{
+			background: url(../img/pad.png)no-repeat -124px -97px;
+		}
+		.list-group .i3:hover i{
+			background: url(../img/pad.png)no-repeat -121px -199px;
+		}
+		.list-group .i4:hover i{
+			background: url(../img/pad.png)no-repeat -120px -295px;
+		}
+		.list-group .i5:hover i{
+			background: url(../img/pad.png)no-repeat -43px -602px;
+		}
+		.list-group .i3 i{
+			width: 34px;
+			height: 41px;
+			display: inline-block;
+			position: absolute;
+			left: 0;
+			top: 23px;
+			background: url(../img/pad.png)no-repeat 0 -199px;
+		}
+		.list-group .i4 i{
+			width: 34px;
+			height: 41px;
+			display: inline-block;
+			position: absolute;
+			left: 0;
+			top: 23px;
+			background: url(../img/pad.png)no-repeat 0 -295px;
+		}
+		.list-group .i5 i{
+			width: 34px;
+			height: 41px;
+			display: inline-block;
+			position: absolute;
+			left: 0;
+			top: 23px;
+			background: url(../img/pad.png)no-repeat 0 -602px;
+		}
+		@media only screen and (max-width: 1024px){
+			.tab-left{
+				display: none;
+			}
+		}
+		.ul-bottom{
+			line-height: 84px;
+			float: left;
+		}
+		.ul-bottom a:hover{
+			color: #38b774;
+		}
+		.ul .ul-bottom i{
+			display: inline-block;
+		    vertical-align: top;
+		    height: 36px;
+		    margin-top: 24px;
+		    margin-left:45px; 
+		    padding-left: 33px;
+		    font-family: Arial;
+		    background: url(../img/icon.png)no-repeat 0 -347px;
+		}
+		.ul li a{
+			text-decoration: none;
+			 color: #444866;
+		}
+		.tab-right .ul .li a:hover{
+			color: #38b774;
+		}
+		/*.ul .li .ul-bottom:hover{
+			color: #38b774;
+		}*/
+		.ul li a span{
+			font-size: 12px;
+		}
+		.ul li{
+			float: left;
+		    margin-bottom: 42px;
+		    width: 355px;
+		    height: 327px;
+		    margin-left: 41px;
+		    border: 1px solid #cad6e1;
+		    border-radius: 5px;
+		    text-align: center;
+		    background-color: #f7f7f7;
+		    list-style: none; 
+		}
+		.ul .ul-title{
+			line-height: 55px;
+			font-size: 16px;
+		}
+		.ul .ul-title span{
+			color: #38b774;
+		}
+		.ul .ul-right i{
+			height: 36px;
+			width: 30px;
+			margin-top: 22px;
+		    margin-left:45px;
+			margin-top: 23px;
+			display: inline-block;
+			font-family: Arial;
+		    background: url(../img/icon.png) no-repeat 0 -448px;
+		}
+		.ul .ul-right{
+			width: 100px;
+		 	line-height: 68px;
+		 	position: relative;
+		 	left: -41px;
+		}
+		.ul .ul-right span{
+			position: absolute;
+			top: -40px;
+			right: -70px;
+		}
+		.tab-right{
+			margin-top: 40px;
+			padding-right: 0;
+    		padding-left: 0;
+    		margin-left: -10px;
+		}
+		.tab-right .ul{
+			display: none;
+		}
+		.ul li .line{
+			width: 1px;
+			height: 36px;
+			background: #ddd;
+			position: absolute;
+			left: 50%;
+			bottom: 16px;
+		}
+		.ul .li{
+			position: relative;
+		}
+		.ul .li .unline{
+			height: 70px;
+			line-height: 70px;
+		}
+		.ul .li .unline span{
+			float: left;
+			width: 50%;
+			text-align: right;
+			font-size: 18px;
+		}
+		.ul .li .unline a{
+			display: inline-block;
+			text-align: left;
+			width: 24px;
+			height: 24px;
+			margin:24px 2px;
+			background: url("http://www.boyaa.com/images/online.png") no-repeat -1px -48px;
+		}
+		.ul .li .unline a:nth-child(3){
+			background-position: -51px -48px;
+		}
+		.ul .li .unline a:nth-child(4){
+			background-position: -102px -48px;
+		}
+			@media only screen and (max-width: 1024px){
+			.ul li{
+				width: 449px;
+		    	height: 259px; 
+		    	float: left;
+			}
+		}
+/*-------------------------footer--------------------------*/
+			.footer{
+			width: 100%;
+			height: 192px;
+			background: #191d3a;
+		}
+		.footer-box{
+			width: 1000px;
+			height: 192px;
+			margin:0 auto;
+    		color: #6c6e7e;
+		}
+		.footer-text1{
+			color: #6c6e7e;
+			font-size: 12px;
+			line-height: 50px;
+		}
+		.footer-text1 a{
+			text-decoration: none;
+			color: #6c6e7e;
+		}
+		.footer-text1 a:hover{
+			color: #fff;
+		}
+		.fixed{
+			position: fixed;
+			right: 15px;
+    		bottom: 75px;
+		}
+		.fixed .btn{
+			width: 68px;
+    		height: 29px;
+    		color: #fff;
+    		border: none;
+    		background: #C7D6E5;
+		}
+		.fixed .btn:hover{
+			background: #38B774;
+			border: none;
+		}
+		.fixed .glyphicon{
+			font-size: 5px; 
+		} 
+
+		
